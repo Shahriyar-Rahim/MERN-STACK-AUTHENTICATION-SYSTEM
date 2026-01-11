@@ -1,7 +1,7 @@
 # MERN Stack Authentication System
 
 <!-- Header image: place your banner at `./assets/header.png` (recommended: 1200×360, PNG/JPG) -->
-![Project Header](./public/image.png)
+![Project Header](./public/screenshot.png)
 
 A clean, production-ready authentication system built with the MERN stack (MongoDB, Express, React, Node). This repository demonstrates a complete authentication flow including registration, login, JWT access & refresh tokens, protected routes, password hashing, and a minimal role system — with separate frontend and backend folders and clear setup instructions.
 
