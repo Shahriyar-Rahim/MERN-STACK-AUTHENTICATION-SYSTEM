@@ -13,7 +13,7 @@ const Register = () => {
   const handleRegister = async (data) => {
     data.phone = `+88${data.phone}`;
     try {
-      const res = await axios.post("http://localhost:5000/api/v1/user/register", data, {
+      const res = await axios.post("https://mern-stack-authentication-system-eta.vercel.app/api/v1/user/register", data, {
         withCredentials: true,
         headers: {
           "Content-Type": "application/json",

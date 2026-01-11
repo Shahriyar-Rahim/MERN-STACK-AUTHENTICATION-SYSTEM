@@ -11,7 +11,7 @@ const ForgotPassword = () => {
   const handleForgotPassword =async (e) => {
     e.preventDefault();
     // use try catch
-    await axios.post("http://localhost:5000/api/v1/user/password/forgot", {email}, {
+    await axios.post("https://mern-stack-authentication-system-eta.vercel.app/api/v1/user/password/forgot", {email}, {
       withCredentials: true,
       headers: {
         "Content-Type": "application/json",

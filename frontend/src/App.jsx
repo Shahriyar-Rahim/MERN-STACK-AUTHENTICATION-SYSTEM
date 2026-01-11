@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/v1/user/me", {
+        const res = await axios.get("https://mern-stack-authentication-system-eta.vercel.app/api/v1/user/me", {
           withCredentials: true,
           headers: {
             "Content-Type": "application/json",

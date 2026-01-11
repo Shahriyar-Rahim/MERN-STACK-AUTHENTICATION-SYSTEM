@@ -35,7 +35,7 @@ const OtpVerification = () => {
     };
 
     try {
-      const res = await axios.post("http://localhost:5000/api/v1/user/verify-otp", data, {
+      const res = await axios.post("https://mern-stack-authentication-system-eta.vercel.app/api/v1/user/verify-otp", data, {
         withCredentials: true,
         headers: {
           "Content-Type": "application/json",

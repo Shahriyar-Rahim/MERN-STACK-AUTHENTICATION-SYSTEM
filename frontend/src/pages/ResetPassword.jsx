@@ -15,7 +15,7 @@ const ResetPassword = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.put(`http://localhost:5000/api/v1/user/password/reset/${token}`, { password, confirmPassword}, {
+      const res = await axios.put(`https://mern-stack-authentication-system-eta.vercel.app/api/v1/user/password/reset/${token}`, { password, confirmPassword}, {
         withCredentials: true,
         headers: {
           "Content-Type": "application/json",
