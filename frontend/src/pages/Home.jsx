@@ -29,6 +29,7 @@ const Home = () => {
       toast.success(res.data.message);
       setUser(null);
       setIsAuthenticated(false);
+      navigate("/auth");
     } catch (error) {
       toast.error(error.response.data.message);
     }
